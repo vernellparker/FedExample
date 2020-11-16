@@ -3,7 +3,8 @@ const { ApolloGateway } = require("@apollo/gateway");
 
 const gateway = new ApolloGateway({
     serviceList: [
-        { name: 'accounts', url: 'http://localhost:4001/query' },
+        { name: 'bolt-wrapper', url: 'http://localhost:4001/query' },
+        { name: 'authorization', url: 'http://localhost:4002/query' },
     ],
 });
 

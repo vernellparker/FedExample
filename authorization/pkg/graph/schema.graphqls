@@ -1,0 +1,35 @@
+type User @key(fields: "username"){
+  id: Int!
+  username: String!
+  email: String!
+  firstName: String!
+  lastName: String!
+  password: String!
+}
+
+extend type Query {
+  users: [User!]!
+}
+
+input RefreshTokenInput{
+  token: String!
+}
+
+input UserInput {
+  username: String!
+  firstName: String!
+  lastName: String!
+  email: String!
+  password: String!
+}
+input Login {
+  username: String!
+  password: String!
+}
+
+type Mutation {
+  createUser(input: UserInput!): String!
+  updateUser(input: UserInput!): User!
+  login(input: Login!): String!
+  refreshToken(input: RefreshTokenInput!): String!
+}

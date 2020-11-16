@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3552ca71-8132-49a7-a93c-5df0dba7bff6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/authorization/internal/auth/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization/internal/auth/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization/internal/middleware/ginMiddleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorization/pkg/jwt/JwtAuth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/authorization/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/pkg/db/setup.go" beforeDir="false" afterPath="$PROJECT_DIR$/authorization/pkg/db/setup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/pkg/graph/models/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/authorization/pkg/graph/models/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/pkg/graph/models/refreshTokenInput.go" beforeDir="false" afterPath="$PROJECT_DIR$/authorization/pkg/graph/models/refreshTokenInput.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization/pkg/graph/models/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/authorization/pkg/graph/models/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1k3anZxWnJPmJPjHhaeOHRSMLFu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver&#10;mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/authorization/internal/middleware/ginMiddleware.go" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/authorization/internal/middleware" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authorization" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authorization/internal/auth" />
+      <recent name="$PROJECT_DIR$/authorization/internal/error" />
+      <recent name="$PROJECT_DIR$/authorization/dev/docker" />
+      <recent name="$PROJECT_DIR$/authorization/pkg/db/models" />
+      <recent name="$PROJECT_DIR$/authorization/pkg/db" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build authorization/cmd/server">
+    <configuration name="go build authorization/cmd/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ApolloFederation" />
+      <working_directory value="$PROJECT_DIR$/authorization" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/authorization/cmd/server/server.go" />
+      <package value="authorization/cmd/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker.sql-server-db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="sql-server-db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="authorization/dev/docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build authorization/cmd/server" />
+        <item itemvalue="Docker.docker.sql-server-db: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3552ca71-8132-49a7-a93c-5df0dba7bff6" name="Default Changelist" comment="" />
+      <created>1605549200081</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605549200081</updated>
+      <workItem from="1605549201368" duration="50000" />
+      <workItem from="1605549257396" duration="823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="755" y="394" width="400" height="323" key="#Go_Modules" timestamp="1604931947326">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="755" y="394" width="400" height="323" key="#Go_Modules/0.36.1920.1044@0.36.1920.1044" timestamp="1604931947326" />
+    <state x="939" y="164" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605556493776">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="939" y="164" width="800" height="673" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1605556493776" />
+    <state x="530" y="56" width="849" height="999" key="CommitChangelistDialog2" timestamp="1604932401309">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="530" y="56" width="849" height="999" key="CommitChangelistDialog2/0.36.1920.1044@0.36.1920.1044" timestamp="1604932401309" />
+    <state width="733" height="618" key="DebuggerActiveHint" timestamp="1605554183505">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="733" height="618" key="DebuggerActiveHint/0.36.1920.1044@0.36.1920.1044" timestamp="1605554183505" />
+    <state x="743" y="302" width="424" height="508" key="FileChooserDialogImpl" timestamp="1605563285224">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="743" y="302" width="424" height="508" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1605563285224" />
+    <state width="1878" height="331" key="GridCell.Tab.0.bottom" timestamp="1605562475094">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475094" />
+    <state width="1878" height="331" key="GridCell.Tab.0.center" timestamp="1605562475093">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475093" />
+    <state width="1878" height="331" key="GridCell.Tab.0.left" timestamp="1605562475093">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475093" />
+    <state width="1878" height="331" key="GridCell.Tab.0.right" timestamp="1605562475094">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475094" />
+    <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1605562475096">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.1.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475096" />
+    <state width="1878" height="331" key="GridCell.Tab.1.center" timestamp="1605562475095">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.1.center/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475095" />
+    <state width="1878" height="331" key="GridCell.Tab.1.left" timestamp="1605562475095">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.1.left/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475095" />
+    <state width="1878" height="331" key="GridCell.Tab.1.right" timestamp="1605562475096">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1878" height="331" key="GridCell.Tab.1.right/0.36.1920.1044@0.36.1920.1044" timestamp="1605562475096" />
+    <state width="256" height="539" key="HiddenNamespacesPopup" timestamp="1605033586669">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="256" height="539" key="HiddenNamespacesPopup/0.36.1920.1044@0.36.1920.1044" timestamp="1605033586669" />
+    <state x="555" y="290" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1605136407153">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="555" y="290" width="800" height="532" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1605136407153" />
+    <state x="739" y="364" key="cloudConfig.PluginsDialog" timestamp="1605549235024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="364" key="cloudConfig.PluginsDialog/-3840.0.1536.848/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605549235024" />
+    <state x="708" y="289" width="494" height="534" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1605563286811">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="708" y="289" width="494" height="534" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1605563286811" />
+    <state x="654" y="150" width="612" height="816" key="find.popup" timestamp="1605555571465">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="654" y="150" width="612" height="816" key="find.popup/0.36.1920.1044@0.36.1920.1044" timestamp="1605555571465" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/internal/auth/middleware.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/pkg/graph/models/user.go</url>
+          <line>58</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/pkg/graph/schema.resolvers.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/pkg/graph/models/user.go</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/internal/auth/middleware.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/internal/auth/middleware.go</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/pkg/graph/models/user.go</url>
+          <line>64</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/pkg/jwt/JwtAuth.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/authorization/pkg/jwt/JwtAuth.go</url>
+          <line>52</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
